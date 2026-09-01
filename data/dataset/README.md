@@ -1,4 +1,4 @@
-﻿# Conjunto de datos anotado
+# Conjunto de datos anotado
 
 Este directorio contiene el conjunto de datos local utilizado para el ajuste fino
 y la evaluación del detector de arbolado desarrollado en el Trabajo Fin de Grado.
@@ -61,7 +61,7 @@ Fuente de las imágenes: Ortofotos PNOA Máxima Actualidad, IGN/CNIG.
 Las anotaciones de copas arbóreas fueron realizadas manualmente durante el
 desarrollo de este TFG mediante LabelImg.
 
-Cada copa visualmente distinguible se delimitó mediante una caja rectangular y
+Las copas arbóreas identificadas manualmente se delimitaron mediante cajas rectangulares y
 se asignó a la única clase utilizada:
 
 `0 Tree`

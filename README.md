@@ -1,4 +1,4 @@
-﻿# Generación de un mapa virtual de densidad forestal y biomasa mediante teledetección e IA
+# Generación de un mapa virtual de densidad forestal y biomasa mediante teledetección e IA
 
 Repositorio asociado al Trabajo Fin de Grado:
 
@@ -77,14 +77,18 @@ A continuación se muestran ejemplos representativos obtenidos con el modelo fin
 `models/best.pt` y un umbral de confianza `conf = 0,25`.
 
 Para cada nivel de densidad se conserva la salida original de YOLO, con cajas,
-clase y confianza, y la representación alternativa mediante cajas amarillas sin
-etiquetas generada con el script de visualización del repositorio.
+clase y confianza, y una representación alternativa mediante cajas amarillas sin
+etiquetas.
 
 | Densidad | Salida YOLO | Cajas amarillas |
 | --- | --- | --- |
 | Alta | <img src="data/examples/conf025/blue_labels/alta_densidad_blue.jpg" width="420"> | <img src="data/examples/conf025/yellow_boxes/alta_densidad_yellow.jpg" width="420"> |
 | Media | <img src="data/examples/conf025/blue_labels/densidad_media_blue.jpg" width="420"> | <img src="data/examples/conf025/yellow_boxes/densidad_media_yellow.jpg" width="420"> |
 | Baja | <img src="data/examples/conf025/blue_labels/baja_densidad_blue.jpg" width="420"> | <img src="data/examples/conf025/yellow_boxes/baja_densidad_yellow.jpg" width="420"> |
+
+El repositorio conserva además el script
+`scripts/visualization/pintar-cajas-amarillo-comparativa-conf.py`
+para generar este tipo de representación sobre las detecciones territoriales.
 
 Las imágenes corresponden a la partición de validación del conjunto local. La
 descripción completa de estas evidencias se encuentra en

@@ -1,4 +1,4 @@
-﻿# Ejemplos visuales de detección
+# Ejemplos visuales de detección
 
 Este directorio conserva ejemplos visuales representativos de la detección de
 arbolado realizada con el modelo final del Trabajo Fin de Grado.
@@ -47,9 +47,11 @@ Archivos:
 Contiene una representación alternativa de las mismas detecciones mediante cajas
 amarillas sin etiquetas de texto.
 
-Esta visualización se genera mediante:
+El repositorio incluye además el script:
 
 `scripts/visualization/pintar-cajas-amarillo-comparativa-conf.py`
+
+para generar este tipo de representación sobre las detecciones territoriales.
 
 Archivos:
 
