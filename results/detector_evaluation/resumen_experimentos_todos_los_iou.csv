@@ -1,0 +1,15 @@
+﻿experiment;iou_threshold;gt;pred;tp;fp;fn;precision;recall;f1;mean_iou_tp;pred_labels_dir
+baseline_original_img1280_conf025;0.5;1266;762;173;589;1093;0.227034;0.136651;0.170611;0.640962;data/evaluation_predictions/baseline_original_img1280_conf025/labels
+cpu_best_conf025;0.5;1266;1244;571;673;695;0.459003;0.451027;0.45498;0.668855;data/evaluation_predictions/cpu_best_conf025/labels
+cpu_best_conf040;0.5;1266;958;500;458;766;0.521921;0.394945;0.44964;0.673825;data/evaluation_predictions/cpu_best_conf040/labels
+gpu_best_conf025_maxdet1000;0.5;1266;1428;610;818;656;0.427171;0.481833;0.452858;0.662849;data/evaluation_predictions/gpu_best_conf025_maxdet1000/labels
+gpu_best_conf040_maxdet1000;0.5;1266;994;514;480;752;0.517103;0.406003;0.454867;0.669414;data/evaluation_predictions/gpu_best_conf040_maxdet1000/labels
+gpu_last_conf025_maxdet1000;0.5;1266;328;226;102;1040;0.689024;0.178515;0.283563;0.676632;data/evaluation_predictions/gpu_last_conf025_maxdet1000/labels
+gpu_last_conf030_maxdet1000;0.5;1266;31;26;5;1240;0.83871;0.020537;0.040093;0.712051;data/evaluation_predictions/gpu_last_conf030_maxdet1000/labels
+baseline_original_img1280_conf025;0.3;1266;762;272;490;994;0.356955;0.21485;0.268245;0.553272;data/evaluation_predictions/baseline_original_img1280_conf025/labels
+cpu_best_conf025;0.3;1266;1244;764;480;502;0.614148;0.603476;0.608765;0.60162;data/evaluation_predictions/cpu_best_conf025/labels
+cpu_best_conf040;0.3;1266;958;662;296;604;0.691023;0.522907;0.595324;0.608903;data/evaluation_predictions/cpu_best_conf040/labels
+gpu_best_conf025_maxdet1000;0.3;1266;1428;848;580;418;0.593838;0.669826;0.629547;0.586301;data/evaluation_predictions/gpu_best_conf025_maxdet1000/labels
+gpu_best_conf040_maxdet1000;0.3;1266;994;703;291;563;0.707243;0.555292;0.622124;0.599189;data/evaluation_predictions/gpu_best_conf040_maxdet1000/labels
+gpu_last_conf025_maxdet1000;0.3;1266;328;280;48;986;0.853659;0.221169;0.351317;0.624675;data/evaluation_predictions/gpu_last_conf025_maxdet1000/labels
+gpu_last_conf030_maxdet1000;0.3;1266;31;29;2;1237;0.935484;0.022907;0.044719;0.677934;data/evaluation_predictions/gpu_last_conf030_maxdet1000/labels

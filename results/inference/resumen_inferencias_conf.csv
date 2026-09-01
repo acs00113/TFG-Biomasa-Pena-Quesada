@@ -1,0 +1,5 @@
+﻿confianza,nombre_experimento,imagenes_procesadas,archivos_labels,imagenes_sin_detecciones,detecciones_totales,max_detecciones_recorte,recorte_maximo,max_det_configurado,numero_recortes_saturados,recortes_saturados,tiempo_inferencia_s,detecciones_por_segundo,ruta_resultados
+0.1,conf010,180,180,0,108549,1494,PNOA_area_LiDAR_508000_4179000_512000_4183000_12_05,3000,0,,178.204,609.128,results/inference/conf010
+0.15,conf015,180,179,1,87989,1182,PNOA_area_LiDAR_508000_4179000_512000_4183000_12_05,3000,0,,133.988,656.694,results/inference/conf015
+0.2,conf020,180,179,1,75316,1000,PNOA_area_LiDAR_508000_4179000_512000_4183000_12_05,3000,0,,123.791,608.415,results/inference/conf020
+0.25,conf025,180,179,1,66046,877,PNOA_area_LiDAR_508000_4179000_512000_4183000_12_05,3000,0,,112.794,585.547,results/inference/conf025

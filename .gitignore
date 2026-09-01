@@ -1,0 +1,39 @@
+﻿# Generated outputs
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# External geospatial data
+data/external/*
+!data/external/README.md
+
+*.laz
+*.copc.laz
+
+# Models
+models/*
+!models/README.md
+!models/best.pt
